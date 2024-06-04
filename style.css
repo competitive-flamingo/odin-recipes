@@ -3,6 +3,13 @@ body {
     background-color: rgb(110, 204, 146);
 }
 
+.recipies a{
+    font-size: 25px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 img {
     height: auto;
     width: 310px;
