@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, "Times New Roman", sans-serif;
+    background-color: rgb(110, 204, 146);
+}
+
+img {
+    height: auto;
+    width: 310px;
+}
+
+
+
+p, .ingredients, .steps {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ingredients {
+    color: rgb(122, 32, 32);
+}
+
+.steps {
+    color: #603567;
+}
