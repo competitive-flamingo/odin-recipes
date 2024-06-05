@@ -1,12 +1,53 @@
 body {
     font-family: Verdana, "Times New Roman", sans-serif;
-    background-color: rgb(110, 204, 146);
+    background-color: #E88D67;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homepage {
+    width: 500px;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.card {
+    background-color: #F3F7EC;
+    padding: 10px;
+}
+
+.homepage h1 {
+    background-color: #006989;
+    padding: 10px;
+    color: #F3F7EC;
+}
+
+
+.recipies {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.recipies li {
+    /* display: inline-block; */
+    display: block;
+    width: 300px;
+    border: 5px solid #006989;
+    padding: 20px;
+    /* margin-left: 20px; */
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #F3F7EC;
 }
 
 .recipies a{
     font-size: 25px;
-    color: darkslategrey;
-    text-decoration: underline;
+    color: #005C78;
+    text-decoration: none;
     font-weight: 600;
 }
 
